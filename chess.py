@@ -25,7 +25,7 @@ while True:
 
 #То что делает программа
 
-if strok1 - 1 < strok2 < strok1+1 and stolb1 - 1 < stolb2 < stolb1 + 1:
+if strok1 - 1 <= strok2 <= strok1+1 and stolb1 - 1 <= stolb2 <= stolb1 + 1:
     print("True")
 else:
     print("False")
